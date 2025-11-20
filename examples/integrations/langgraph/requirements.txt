@@ -158,9 +158,9 @@ jsonpointer==3.0.0 \
     --hash=sha256:13e088adc14fca8b6aa8177c044e12701e6ad4b28ff10e65f2267a90109c9942 \
     --hash=sha256:2b2d729f2091522d61c3b31f82e11870f60b68f43fbc705cb76bf4b832af59ef
     # via jsonpatch
-langchain-core==0.3.56 \
-    --hash=sha256:a20c6aca0fa0da265d96d3b14a5a01828ac5d2d9d27516434873d76f2d4839ed \
-    --hash=sha256:de896585bc56e12652327dcd195227c3739a07e86e587c91a07101e0df11dffe
+langchain-core==0.3.80 \
+    --hash=sha256:2141e3838d100d17dce2359f561ec0df52c526bae0de6d4f469f8026c5747456 \
+    --hash=sha256:29636b82513ab49e834764d023c4d18554d3d719a185d37b019d0a8ae948c6bb
     # via
     #   langgraph
     #   langgraph-checkpoint

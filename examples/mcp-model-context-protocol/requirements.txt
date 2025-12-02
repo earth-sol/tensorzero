@@ -56,9 +56,9 @@ idna==3.10 \
     # via
     #   anyio
     #   httpx
-mcp==1.6.0 \
-    --hash=sha256:7bd24c6ea042dbec44c754f100984d186620d8b841ec30f1b19eda9b93a634d0 \
-    --hash=sha256:d9324876de2c5637369f43161cd71eebfd803df5a95e46225cab8d280e366723
+mcp==1.23.0 \
+    --hash=sha256:5a645cf111ed329f4619f2629a3f15d9aabd7adc2ea09d600d31467b51ecb64f \
+    --hash=sha256:84e0c29316d0a8cf0affd196fd000487ac512aa3f771b63b2ea864e22961772b
     # via tensorzero-examples-mcp-model-context-protocol
 pydantic==2.11.3 \
     --hash=sha256:7471657138c16adad9322fe3070c0116dd6c3ad8d649300e3cbdfe91f4db4ec3 \

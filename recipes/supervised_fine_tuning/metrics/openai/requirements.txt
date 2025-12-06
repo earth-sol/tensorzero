@@ -7,8 +7,6 @@ anyio==4.8.0
     #   httpx
     #   jupyter-server
     #   openai
-appnope==0.1.4
-    # via ipykernel
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -27,7 +25,7 @@ babel==2.17.0
     # via jupyterlab-server
 beautifulsoup4==4.13.3
     # via nbconvert
-bleach==6.2.0
+bleach[css]==6.2.0
     # via nbconvert
 certifi==2025.1.31
     # via
@@ -51,10 +49,6 @@ defusedxml==0.7.1
     # via nbconvert
 distro==1.9.0
     # via openai
-exceptiongroup==1.2.2
-    # via
-    #   anyio
-    #   ipython
 executing==2.2.0
     # via stack-data
 fastjsonschema==2.21.1
@@ -97,7 +91,7 @@ json5==0.10.0
     # via jupyterlab-server
 jsonpointer==3.0.0
     # via jsonschema
-jsonschema==4.23.0
+jsonschema[format-nongpl]==4.23.0
     # via
     #   jupyter-events
     #   jupyterlab-server
@@ -261,8 +255,6 @@ rpds-py==0.22.3
     #   referencing
 send2trash==1.8.3
     # via jupyter-server
-setuptools==75.8.0
-    # via jupyterlab
 six==1.17.0
     # via
     #   python-dateutil
@@ -285,8 +277,6 @@ tinycss2==1.4.0
     # via bleach
 toml==0.10.2
     # via -r requirements.in
-tomli==2.2.1
-    # via jupyterlab
 tornado==6.4.2
     # via
     #   ipykernel
@@ -315,20 +305,15 @@ types-python-dateutil==2.9.0.20241206
     # via arrow
 typing-extensions==4.12.2
     # via
-    #   anyio
-    #   async-lru
     #   beautifulsoup4
-    #   ipython
-    #   mistune
     #   openai
     #   pydantic
     #   pydantic-core
-    #   referencing
 tzdata==2025.1
     # via pandas
 uri-template==1.3.0
     # via jsonschema
-urllib3==2.3.0
+urllib3==2.6.0
     # via
     #   clickhouse-connect
     #   requests

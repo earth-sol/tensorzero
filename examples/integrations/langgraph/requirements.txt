@@ -169,9 +169,9 @@ langgraph==0.3.34 \
     --hash=sha256:4bf8af313ce7686e8a7597ca5441341ec89f9a9fe73ba1b07c116755efa3117d \
     --hash=sha256:d4107b2101ee4a6f93f33b0fac1064d46ac3491f783200affac29f229ab0b93c
     # via tensorzero-examples-integrations-langgraph
-langgraph-checkpoint==2.0.25 \
-    --hash=sha256:23416a0f5bc9dd712ac10918fc13e8c9c4530c419d2985a441df71a38fc81602 \
-    --hash=sha256:77a63cab7b5f84dec1d49db561326ec28bdd48bcefb7fe4ac372069d2609287b
+langgraph-checkpoint==3.0.0 \
+    --hash=sha256:560beb83e629784ab689212a3d60834fb3196b4bbe1d6ac18e5cad5d85d46010 \
+    --hash=sha256:f738695ad938878d8f4775d907d9629e9fcd345b1950196effb08f088c52369e
     # via
     #   langgraph
     #   langgraph-prebuilt

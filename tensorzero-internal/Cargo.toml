@@ -44,7 +44,7 @@ hex = "0.4.3"
 image = { version = "0.25.6", default-features = false }
 itertools = "0.14.0"
 jsonschema = "0.30.0"
-jsonwebtoken = "9.3.1"
+jsonwebtoken = "10.3.0"
 lazy_static = { workspace = true }
 metrics = "0.24.2"
 metrics-exporter-prometheus = { version = "0.17.0", features = [
